@@ -1,19 +1,18 @@
 # Dependencies
+gems: 		[jekyll-paginate]
 markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+
 
 # Setup
 title:            Frank Blandon
 tagline:          'Programmer'
 description:      'A developer from St Pete, Florida with a passion for tech, fishing, reading and killing flies.'
 url:              http://blandonfrank.github.io/
-baseurl:          /
+baseurl:          
 
 author:
   name:           'Frank Blandon'

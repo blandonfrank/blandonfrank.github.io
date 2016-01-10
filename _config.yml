@@ -4,23 +4,25 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Frank Blandon
+tagline:          'Programmer'
+description:      'A developer from St Pete, Florida with a passion for tech, fishing, reading and killing flies.'
+url:              http://blandonfrank.github.io/
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Frank Blandon'
+  url:            
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+github:         https://github.com/blandonfrank
+linkedin:	https://www.linkedin.com/in/frank-blandon-99900516
